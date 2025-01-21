@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "initial_d",
+    "name": "Initial D",
     "slug": "initial_d",
     "version": "1.0.0",
+    "scheme": "com.arranguez.initiald",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,10 +20,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kroue.initial_d"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "66f48b51-fd0f-4e3f-b1d7-015e0bf7bd60"
+      }
     }
   }
 }
